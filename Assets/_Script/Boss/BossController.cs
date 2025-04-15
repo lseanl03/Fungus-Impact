@@ -78,7 +78,7 @@ public class BossController : MonoBehaviour
 
             if (TargetDetector.Target() != null && BossAttack.canAtk)
             {
-                indexTime = Random.Range(2, 5);
+                indexTime = Random.Range(2, 3);
                 ChangeState();
             }
         }

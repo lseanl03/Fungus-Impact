@@ -121,11 +121,11 @@ public abstract class FungusController : MonoBehaviour
         if (IsDied) return;
 
 
-        if (IsUsingSkill)
-        {
-            rb2d.linearVelocity = new Vector2(MoveDirection.x, MoveDirection.y);
-            return;
-        }
+        //if (IsUsingSkill)
+        //{
+        //    rb2d.linearVelocity = new Vector2(MoveDirection.x, MoveDirection.y);
+        //    return;
+        //}
 
         Skill();
         Move();
